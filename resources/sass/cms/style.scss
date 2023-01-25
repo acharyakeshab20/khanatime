@@ -1,0 +1,148 @@
+
+nav.navbar.navbar-expand-lg.navigationbar {
+    background: #ECF0F1;
+    padding: 10px 0px;
+    font-family: monospace;
+}
+
+body {
+    background: #E5E8E8  !important;
+}
+
+a.nav-link {
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+a.nav-link:hover {
+    color: #76D7C4;
+}
+a.navbar-brand.foody {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+a.navbar-brand.foody:hover{
+    color: #76D7C4;
+    transition: 3s;
+    border-radius: 10px;
+}
+
+.loginform {
+    background: #F4F6F6;
+    border-radius: 10px;
+    box-shadow: 20px 20px #EAEDED;
+    margin-top: 230px;
+}
+
+.loginforms{
+    background: #F4F6F6;
+    border-radius: 10px;
+    box-shadow: 20px 20px #EAEDED;
+    margin-top: 120px;
+}
+
+.loginforms-addproduct{
+    background: #F4F6F6;
+    border-radius: 10px;
+    box-shadow: 20px 20px #EAEDED;
+    margin-top: 80px;
+}
+input#email,input#password,input#name,input#address,input#phone,select#status,input#new_password,input#new_password_confirmation,input#old_password {
+    border: none;
+    border-bottom: 2px solid #76D7C4;
+    border-radius: 0px;
+    background-color: #F4F6F6;
+    text-align: center;
+}
+
+input#price,input#discount_price,input#image,select#featured_product,select#featured_product{
+    border: none;
+    border-bottom: 2px solid #76D7C4;
+    border-radius: 0px;
+    background-color: #F4F6F6;
+    text-align: center;
+}
+
+select#category_id,select#brand_id,input#sku{
+    border: none;
+    border-bottom: 2px solid #76D7C4;
+    border-radius: 0px;
+    background-color: #F4F6F6;
+    text-align: center;
+}
+
+input#search {
+    border: none;
+    border-bottom:2px solid #76D7C4;
+    border-radius: inherit;
+    text-align: center;
+    background: #F2F3F4;
+}
+
+
+button.btn.button {
+    background: #76D7C4;
+    padding: 10px 25px;
+    border-radius: 0px;
+    margin-bottom: 7px;
+    color: black;
+}
+
+h3.login-form-head.text-center {
+    color: #76D7C4;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.row.menu {
+    background: #F2F3F4;
+    padding: 25px 0px;
+}
+
+a.button.text-center {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background: #76D7C4;
+    padding: 10px 25px;
+}
+a.button{
+    background: #76D7C4;
+    padding: 10px 25px;
+    border-radius: 0px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+a.button:hover{
+    background: #76D7C4;
+    padding: 10px 25px;
+    border-radius: 0px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+span.page-link {
+    background: #76D7C4 !important;
+}
+
+img.img-container.img-thumbnail.img-fluid {
+    height: 150px;
+    width: 300px;
+}
+
+img.thumbnails.img-container.img-thumbnail.img-thumbnail {
+    height: 50px;
+    width: 60px;
+}
+
+
