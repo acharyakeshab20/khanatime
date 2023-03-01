@@ -148,7 +148,7 @@ class ProductsController extends Controller
 
             if ($request->hasFile('image')) {
                 $filelist = $product->image;
-//                dd($filelist);
+                   //    dd($filelist);
                 $files = $request->files->all('image');
                 foreach ($files as $file) {
                     $img = Image::make($file);
@@ -160,7 +160,7 @@ class ProductsController extends Controller
 
                     $filelist[] = $filename;
                 }
-
+                    
                 $validation['image'] = $filelist;
             }
 //                Products::create($validation);
